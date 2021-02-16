@@ -29,13 +29,21 @@
         If you have a KoKoa Account, log in with your email or phone number.
       </p>
     </header>
-    <form class="login-form">
+    <form action="friends.html" method="get" class="login-form">
       <input
+        name="username"
         type="text"
         placeholder="Email or phone number"
+        required
         class="login-form__input"
       />
-      <input type="password" placeholder="Password" class="login-form__input" />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        required
+        class="login-form__input"
+      />
       <input type="submit" value="Log In" class="login-form__btn" />
       <a href="#" class="login-form__a">Find Kokoa Account or Password</a>
     </form>
