@@ -1,2 +1,2 @@
-# algorithm
-my algorithm source code (C++)
+# kokoa-clone
+clone coding.
