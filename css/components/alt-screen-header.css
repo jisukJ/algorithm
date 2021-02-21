@@ -1,6 +1,7 @@
 .alt-header {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
 }
@@ -11,9 +12,17 @@
 .alt-header__column:first-child {
   margin-right: auto;
 }
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
-.alt-header__column i {
-  margin-right: 5px;
+.alt-header__column span:last-child {
+  margin-left: 20px;
+}
+.alt-header__column {
+  width: 33%;
 }

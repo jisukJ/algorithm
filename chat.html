@@ -33,13 +33,47 @@
         <h1 class="alt-header__title">Friedrich Nietzsche</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-lg"></i>
-        <i class="fas fa-bars fa-lg"></i>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="chat-screen"></main>
+    <main class="chat-screen">
+      <div class="chat-screen__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row message-row--own">
+        <div class="message-row_content">
+          <div class="message-row__info">
+            <span class="message-row__bubble"> Tell me something </span>
+            <span class="message-row__time">20:00</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="img/friedrich_nietzsche.jpeg" />
+        <div class="message-row_content">
+          <span class="message-row__author">Friedrich Nietzsche</span>
+          <div class="message-row__info">
+            <span class="message-row__bubble">
+              That which does not kill us make us stronger
+            </span>
+            <span class="message-row__time">21:21</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/7f81bfe08b.js"
       crossorigin="anonymous"
