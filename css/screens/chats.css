@@ -1,5 +1,6 @@
 .chats-screen {
   padding: 0px var(--horizontal-space);
+  margin-bottom: 80px;
 }
 .chats-screen div {
   margin-bottom: 15px;
